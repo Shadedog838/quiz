@@ -2,41 +2,99 @@
 <html>
 
 <head>
-  <title>Buzzfeed Quiz</title>
-  <link type='text/css' rel='stylesheet' href='css/style.css' />
+    <title>Buzzfeed Quiz</title>
+    <link type='text/css' rel='stylesheet' href='css/style.css' />
 </head>
 
 <body>
-  <div class="header">
-    <div><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png"></div>
-    <div>News</div>
-    <div>Videos</div>
-    <div>Quizes</div>
-    <div>Tasty</div>
-    <input placeholder="Search">
-  </div>
-  </div>
-  <h1>Which Tech Company is the Perfect Fit for You?</h1>
-  <p id="caption">With dedication, you'll be there before you know it. </p>
-  <img id="tomImg" src="http://th.downloadblog.it/jSwEBLI80OIF2oYywP73GVj3zCo=/fit-in/655xorig/http%3A%2F%2Fmedia.downloadblog.it%2F5%2F57d%2Ftom-di-myspace.jpg">
-  <a href="https://en.wikipedia.org/wiki/Tom_Anderson">Tom Anderson</a>
-  <div id="tom">Buzzfeed Contributor</div>
-  <img class="siliconValley" src="https://www.hbo.com/content/dam/hbodata/series/silicon-valley/episodes/s3/silicon-valley-3-3000x1688.jpg/_jcr_content/renditions/cq5dam.web.1200.675.jpeg">
-  <div class="questions">
-    <h2>Let's start with your Name</h2>
-    <input id="name" placeholder="Enter Your Name Here">
-    <h2> Would you rather spend the day reading, coding, playing a sport or designing clothing?</h2>
-    <input id="question1" placeholder="Reading, Coding, Sports, Designing">
-    <h2> Which would you rather disappear from earh forever: Waffles, Pancakes, or French Toast?</h2>
-    <input id="question2" placeholder="Pancakes, Waffles, or French Toast">
-    <h2>What is your favorite animal?</h2>
-    <input id="question3" placeholder="Mine is a Duck">
-  </div>
-  <div class="result">
-    <button>Click here to land your dream job!</button>
-  </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script src='js/script.js'></script>
+    <audio controls autoplay>
+  <source src="Fatrat.mp3" type="audio/ogg">
+  <source src="Fatrat.mp3" type="audio/mpeg">
+</audio>
+    <div class="header">
+        <div><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/BuzzFeed.svg/1280px-BuzzFeed.svg.png"></div>
+        <div>News</div>
+        <div>Videos</div>
+        <div>Quizes</div>
+        <div>Tasty</div>
+        <input placeholder="Search">
+    </div>
+   
+    <h1>What Animal are you?</h1>
+
+    <img id="shanImg" src="images/shandon.jpg">Shandon Mith</a>
+    <div id="shan">Buzzfeed Contributor</div>
+    <img class="siliconValley" src="https://www.sciencedaily.com/images/2018/04/180412141031_1_540x360.jpg">
+    <div class="questions">
+        <h2>Which one will you choose?</h2>
+        <div class='flex'>
+            <div class='choice1 one'><img src="https://ssl.quiksilver.com/static/QS/default/category-assets/marketing-landing/landing/build/img/surf/tiles/surf_featured_1.jpg">Surfing</div>
+            <div class='choice2 two'><img src="https://skydiveparacletexp.com/wp-content/uploads/2016/09/skydiving-course-to-earn-skydiving-license.jpg">Skydiving</div>
+            <div class='choice3 three'><img src="https://www.cunim.org/wp-content/uploads/2017/11/cropped-Wilf-sunset-DG-1000_MG_0626.jpg">Gliding</div>
+            <div id class='choice4 four'><img src="https://assets.simpleviewcms.com/simpleview/image/upload/c_fill,h_584,q_50,w_1000/v1/clients/greenville/Green_River_Adventures_Ziplining_11_1600x935_105c672f-a7f0-4f8b-af39-21e17d7b65aa.jpg">Zip-Lining</div>
+            <div class='choice5 five'><img src="https://upload.wikimedia.org/wikipedia/commons/8/84/Ski_Famille_-_Family_Ski_Holidays.jpg">Skiing</div>
+        </div>
+
+        <h2> What is more important to you?</h2>
+        <div class='flex'>
+            <div class='choice1 one2'><img src="https://cdn-images-1.medium.com/max/2000/1*r-x1hi_iFthtkMIqG076Ow.jpeg">Friend</div>
+            <div class='choice2 two2'><img src='https://yt3.ggpht.com/a-/AN66SAzTbH6fLXOciFXntuV_xYpx8-buT9o9KXQbVA=s900-mo-c-c0xffffffff-rj-k-no'>Family</div>
+            <div class='choice3 three2'><img src='https://cdn.lynda.com/course/625908/625908-636456485987090960-16x9.jpg'>Yourself</div>
+            <div id class='choice4 four2'><img src='https://www.washingtonpost.com/resizer/bmfQHooAGH6PmEv0qHjgf-ZUy-k=/480x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/EBULPVFULQI6PG4TXFYEHZL2EI.jpg'>Money</div>
+            <div class='choice5 five2'><img src='https://upload.wikimedia.org/wikipedia/en/a/ae/Love_TV_Logo.png'>Love</div>
+        </div>
+
+        <h2> Pick a gradient?</h2>
+        <div class='flex'>
+            <div class='choice1 one3'><img src='https://azulletech.com/wp-content/uploads/2015/08/green-yellow-view-gradient.png'></div>
+            <div class='choice2 two3'><img src='https://www.xmple.com/wallpaper/gradient-red-orange-linear-1920x1080-c2-f6bd4d-c01a2f-a-255-f-14.svg'></div>
+            <div class='choice3 three3'><img src='https://webgradients.com/public/webgradients_png/035%20Itmeo%20Branding.png'></div>
+            <div class='choice4 four3'><img src='https://www.xmple.com/wallpaper/gradient-linear-blue-purple-1920x1080-c2-00bfff-9400d3-a-90-f-14.svg'></div>
+            <div class='choice5 five3'><img src="https://www.xmple.com/wallpaper/gradient-purple-linear-pink-1920x1080-c2-8b008b-ffb6c1-a-90-f-14.svg"></div>
+        </div>
+
+        <h2>What's your soul element?</h2>
+        <div class='flex'>
+            <div class='choice1 one4'><img src="https://www.lifecoachcode.com/wp-content/uploads/2014/08/Water.jpg">Water</div>
+            <div class='choice2 two4'><img src="https://vignette.wikia.nocookie.net/elemental-roleplay/images/9/9e/Fire_Element.jpg/revision/latest?cb=20130912212219">Fire</div>
+            <div class='choice3 three4'><img src="https://www.apexmagnets.com/media/catalog/product/cache/1/image/800x800/9df78eab33525d08d6e5fb8d27136e95/t/-/t-16159-1.jpeg">Metal</div>
+            <div class='choice4 four4'><img src="https://pngimage.net/wp-content/uploads/2018/05/elemento-ar-png-4.png">Air</div>
+            <div class='choice5 five4'><img src="https://www.lifecoachcode.com/wp-content/uploads/2014/08/Earth.jpg">Earth</div>
+        </div>
+
+        <h2>You are...</h2>
+        <div class='flex'>
+            <div class='choice1 one5'><img src="http://www.mghclaycenter.org/assets/shykids-blog-635x325.jpg">Shy</div>
+            <div class='choice2 two5'><img src="https://s.hswstatic.com/gif/why-are-we-violent-2.jpg">Violent</div>
+            <div class='choice3 three5'><img src="https://iheartintelligence.com/wp-content/uploads/2018/08/exceptional-personal-traits-loner-750x430.jpg">Loner</div>
+            <div class='choice4 four5'><img src="https://www.somaticpsychotherapytoday.com/wp-content/uploads/2018/04/how-to-deal-with-stubborn-kids-childhood-education.jpg">Stubborn</div>
+            <div class='choice5 five5'><img src="https://images.yourstory.com/2017/04/1-lazy-colleague.png?auto=compress">Lazy</div>
+        </div>
+        <h2>You want to be...</h2>
+        <div class='flex'>
+            <div class='choice1 one6'><img src="https://media.gannett-cdn.com/29906170001/29906170001_5780351010001_5780346124001-vs.jpg?pubId=29906170001&quality=10">Teacher</div>
+            <div class='choice2 two6'><img src="https://upload.wikimedia.org/wikipedia/commons/5/53/A_South_African_soldier_with_the_9th_South_African_Infantry_Battalion%2C_2013.jpg">Soldier</div>
+            <div class='choice3 three6'><img src="https://mediadc.brightspotcdn.com/dims4/default/df0b301/2147483647/strip/true/crop/3000x2000+0+0/resize/3000x2000!/quality/90/?url=https%3A%2F%2Fmediadc.brightspotcdn.com%2F5d%2Ffb%2Fe2db1412321751f81c32be91e89a%2F999022ef22382cb7784cae2665ac2b59.jpg">Politician</div>
+            <div
+                class='choice4 four6'><img src="https://www.irishjobs.ie/careeradvice/wp-content/uploads/Engineers-Salaries-2018.jpg">Engineer</div>
+        <div class='choice5 five6'><img src="https://vignette.wikia.nocookie.net/fcoc-vs-battles/images/7/72/Writer.jpg/revision/latest?cb=20170606142529">Writer</div>
+    </div>
+    <h2>Which group fits your personality?</h2>
+    <div class='flex'>
+        <div class='choice1 one7'>Innocent Confident Outgoing</div>
+        <div class='choice2 two7'>Honest Powerful Elegant</div>
+        <div class='choice3 three7'>Calm Emotional Positive</div>
+        <div class='choice4 four7'>Brave Sensitive Daring</div>
+        <div class='choice5 five7'>Loyal Curious Playful</div>
+    </div>
+    </div>
+    <div class="result">
+        <button id="button">Click here to Know your Animal!</button>
+        <br>
+        <a href="https://preview.c9users.io/shadedog838/buzzfeed-quiz/index.html?_c9_id=livepreview1&_c9_host=https://ide.c9.io"><button id="again">Wanna go Again!</button></a>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src='js/script.js'></script>
 </body>
 
 </html>
